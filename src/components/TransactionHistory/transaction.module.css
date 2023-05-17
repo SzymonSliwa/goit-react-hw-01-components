@@ -1,0 +1,33 @@
+.transaction {
+  width: 460px;
+  background-color: lavenderblush;
+  border-radius: 15px;
+}
+
+.transaction_history {
+  width: 100%;
+  border-radius: 15px;
+}
+
+th,
+td {
+  height: 50px;
+  text-align: center;
+}
+
+th {
+  background-color: teal;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+tr {
+  background-color: white;
+  text-transform: capitalize;
+  color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: lavenderblush;
+}
